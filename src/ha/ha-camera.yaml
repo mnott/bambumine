@@ -1,0 +1,7 @@
+show_state: true
+show_name: true
+camera_view: auto
+type: picture-entity
+entity: camera.x1c_00mSERIAL_camera
+image: https://demo.home-assistant.io/stub_config/bedroom.png
+name: X1C

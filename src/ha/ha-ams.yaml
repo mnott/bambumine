@@ -1,0 +1,8 @@
+type: custom:ha-bambulab-ams-card
+entity: ""
+header: ""
+style: vector
+show_info_bar: true
+show_type: true
+subtitle: AMS 1
+ams: 00933291233492957b7abcde33baccfe
