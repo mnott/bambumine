@@ -134,6 +134,7 @@ Those have been created mostly automatically for me when I configured the printe
 1. [Camera View](src/ha/ha-camera.yaml): You need to put your serial number in here, replacing `_00mSERIAL_`
 2. [Printer Control](src/ha/ha-camera.yaml): This allows me to pause/resume/stop the printer. The printer id in there was generated for me by Home Assistant.
 2. [Printer View](src/ha/ha-printer.yaml): That printer id in there was generated for me by Home Assistant
+3. [Layer Progress](src/ha/ha-layer.yaml): You need to put your serial number in here, replacing `_00mSERIAL_`
 3. [AMS View](src/ha/ha-ams.yaml): Similarly, that AMS id in there was generated for me by Home Assistant
 
 With those changes, I can see the printer even on my mobile phone:

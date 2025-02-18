@@ -1,0 +1,7 @@
+type: vertical-stack
+cards:
+  - type: markdown
+    content: >
+      <h3 style="text-align: center; margin: 0;">Current Layer: {{
+      states('sensor.x1c_00mSERIAL_current_layer') }}/{{
+      states('sensor.x1c_00mSERIAL_total_layer_count') }}</h3>
