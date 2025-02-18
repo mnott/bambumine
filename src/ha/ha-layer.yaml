@@ -1,7 +1,31 @@
 type: vertical-stack
 cards:
-  - type: markdown
-    content: >
-      <h3 style="text-align: center; margin: 0;">Current Layer: {{
-      states('sensor.x1c_00mSERIAL_current_layer') }}/{{
-      states('sensor.x1c_00mSERIAL_total_layer_count') }}</h3>
+  - type: horizontal-stack
+    cards:
+      - type: markdown
+        content: |
+          <div style="font-size: 12px; text-align: left; margin: 0;">
+            Current Layer:<br>
+            <div style="text-align: center;">
+              <strong>{{
+              states('sensor.x1c_00mSERIAL_current_layer') }}</strong>
+            </div>
+          </div>
+      - type: markdown
+        content: |
+          <div style="font-size: 12px; text-align: center; margin: 0;">
+            End Time:<br>
+            <div style="text-align: center;">
+              <strong>{{
+              states('sensor.x1c_00mSERIAL_end_time') }}</strong>
+            </div>
+          </div>
+      - type: markdown
+        content: |
+          <div style="font-size: 12px; text-align: right; margin: 0;">
+            Total Layers:<br>
+            <div style="text-align: center;">
+              <strong>{{
+              states('sensor.x1c_00mSERIAL_total_layer_count') }}</strong>
+            </div>
+          </div>
